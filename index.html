@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Playfair+Display|Oswald|">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display|Oswald|">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     <title>MACCHI - Blog</title>
@@ -23,8 +21,23 @@
             <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="blog.html">Categories</a></li>
-              <li><a href="brands.html">Brands</a></li>
+              <li class="dropdown"><a href="blog.html">Categories</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Category 1</a></li>
+                  <li><a href="#">Category 2</a></li>
+                  <li><a href="#">Category 3</a></li>
+                  <li><a href="#">Category 4</a></li>
+                  <li><a href="#">Category 5</a></li>
+                </ul></li>
+              <li class="dropdown"><a href="brands.html">Brands</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Brand 1</a></li>
+                  <li><a href="#">Brand 2</a></li>
+                  <li><a href="#">Brand 3</a></li>
+                  <li><a href="#">Brand 4</a></li>
+                  <li><a href="#">Brand 5</a></li>
+                  <li><a href="#">Brand 6</a></li>
+                </ul></li>
               <li><a href="store.html">Store</a></li>
             </ul>
           </nav>
@@ -45,7 +58,8 @@
               <a href="start-thinking.html">Join the Discussion</a>
             </section>
            <article>
-            <h3><a href=""> First Article</a></h3>
+            <h3><a href="#"> First Article</a></h3>
+            <h4>By Kat Wolfgang</h4>
              <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                  Sapiente, odit illo beatae adipisci, non iure ipsam ad unde 
@@ -58,13 +72,24 @@
           </article>
 
           <article>
-            <h3><a href=""> Second Article</a></h3>
+            <h3><a href="#"> Second Article</a></h3>
+            <h4>By Kat Wolfgang</h4>
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                  Sapiente, odit illo beatae adipisci, non iure ipsam ad unde 
                  accusamus dolorum fugit nobis repellat cupiditate ullam aperiam.
                   Commodi debitis aliquid magnam.
-            </p>
+           </p>
+
+           <!-- add a video-->
+
+           <iframe width="560"    height="315" 
+            src= "production_id_3971846_(1080p).mp4"  title="YouTube video player" 
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+     
           </article>
           
           </div>
